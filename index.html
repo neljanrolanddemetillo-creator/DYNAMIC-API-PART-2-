@@ -17,6 +17,25 @@
     <div id="spinner" class="spinner hidden"></div>
     <div id="error" class="error hidden"></div>
     
+    <!-- Character Detail Modal -->
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <img id="modalImage" src="" alt="" />
+                <div class="modal-info">
+                    <h2 id="modalName"></h2>
+                    <p><strong>Status:</strong> <span id="modalStatus"></span></p>
+                    <p><strong>Species:</strong> <span id="modalSpecies"></span></p>
+                    <p><strong>Gender:</strong> <span id="modalGender"></span></p>
+                    <p><strong>Origin:</strong> <span id="modalOrigin"></span></p>
+                    <p><strong>Location:</strong> <span id="modalLocation"></span></p>
+                    <p><strong>Episodes:</strong> <span id="modalEpisodes"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <div class="slider-wrapper">
         <button id="prevBtn" class="nav-btn">&#10094;</button>
         <main id="container" class="slider"></main>
